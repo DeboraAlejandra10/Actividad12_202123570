@@ -130,6 +130,7 @@ b=9
  if (a == b)
     disp ("ambos son iguales");
  end
-  
+ 
+ 
 %signos de agrupación
 s_agrupacion = '{ [ ( ) ] }';
