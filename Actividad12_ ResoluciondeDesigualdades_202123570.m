@@ -1,7 +1,7 @@
 %Octave Scrip
 %Title             :Clasificacion de los numeros
 %Description       :Script para recordar conceptos de numeros
-%Author            :Débora Alejandra García Cruz
+%Author            :DÃ©bora Alejandra GarcÃ­a Cruz
 %Date              :20210930
 %Version           :1
 %Usage             :octave> /path/PrimerScript
@@ -10,11 +10,11 @@
 clear
 c_numeros_Naturales = 'N= {1, 2, 3, .... n} si n > 0';
 c_numeros_Enteros = 'Z= { -n..., -2, -1, 0, 1, 2,..n}';
-c_numeros_Racionales = 'Q = { m/n dónde m,n pertenecen a R n no es igual a 0}';
-c_numeros_Irracionales = 'I= {raiz de n que no puede ser expresada como Q todas las raíces que n o son exactas}';
+c_numeros_Racionales = 'Q = { m/n dÃ³nde m,n pertenecen a R n no es igual a 0}';
+c_numeros_Irracionales = 'I= {raiz de n que no puede ser expresada como Q todas las raÃ­ces que n o son exactas}';
 c_numeros_Reales = 'R= {I, Q, Z, N}';
 
-%Propiedades de los números, sean a,b,c,d,e ??
+%Propiedades de los nÃºmeros, sean a,b,c,d,e ??
 
 %Propiedades de pertene a(cerradura)
 disp 'Propiedad de cerradura'
@@ -74,8 +74,8 @@ p_inversoA = 'a + -a = 0';
 a=2;
 a+(-a)
 
-%Inverso multiplicativo o recíproco
-disp 'Inverso multiplicativo o recíproco'   
+%Inverso multiplicativo o recÃ­proco
+disp 'Inverso multiplicativo o recÃ­proco'   
 p_inversoM = 'a ( 1/a ) = 1';
 a=5;
 a*(1/a)
@@ -112,13 +112,13 @@ end
     disp ("Entonces a es igual que c");
 end
 
-%Tricotomía (raíz del algebra) siempre se puede comparar
+%TricotomÃ­a (raÃ­z del algebra) siempre se puede comparar
 
 p_tricotomia = 'a > b';
 p_tricotomia2 = 'a = b';
 p_tricotomia3 = 'a < b';
 
-disp ("Tricotomía")
+disp ("TricotomÃ­a")
 a=10
 b=9
  if (a > b)
@@ -131,5 +131,5 @@ b=9
     disp ("ambos son iguales");
  end
   
-%signos de agrupación
-s_agrupacion = '{ [ ( )| ] }';
+%signos de agrupaciÃ³n
+s_agrupacion = '{ [ ( ) ] }';
